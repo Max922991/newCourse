@@ -21,13 +21,26 @@ public class Animal {
         return "Привет";
     }
 
-    private int weight;
-    private  String color;
-    private int age;
-    private boolean isAlive;
-    private String name;
+    private int weight = 10;
+    private  String color = "green";
+    private int age = 21;
+    private boolean isAlive = true;
+    private String name = "animal";
 
+    public Animal(int weight, String color, int age, String name) {
+        this.weight = weight;
+        this.color = color;
+        this.age = age;
+        this.name = name;
+    }
 
+    public Animal(int weight, String color, int age, boolean isAlive, String name) {
+        this.weight = weight;
+        this.color = color;
+        this.age = age;
+        this.isAlive = isAlive;
+        this.name = name;
+    }
 
     public int getWeight() {
         return weight;
@@ -67,17 +80,5 @@ public class Animal {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public Animal(int weight, String color, int age, boolean isAlive, String name) {
-        this.weight = weight;
-        this.color = color;
-        this.age = age;
-        this.isAlive = isAlive;
-        this.name = name;
-    }
-
-    public Animal(boolean isAlive) {
-        this.isAlive = isAlive;
     }
 }

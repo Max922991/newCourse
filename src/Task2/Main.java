@@ -8,13 +8,14 @@ package Task2;
 public class Main {
     public static void main(String[] args) {
 
-        Animal lion = new Lion(54, "orange", 21, false, "dwdwdwdwdw");
-        Animal tiger = new Tiger(45, "red", 12, true, "wdwd");
+        Animal lion = new Lion(54, "orange", 21, false, "lllllll");
+        Animal tiger = new Tiger(45, "red", 12, true, "ttttttt");
 
         Animal[] array = {lion, tiger};
 
         for (int i = 0; i < array.length; i++) {
-
+            System.out.println(lion.isAlive() + " " + lion.getName());
+            System.out.println(tiger.isAlive() + " " + tiger.getName());
         }
 
 

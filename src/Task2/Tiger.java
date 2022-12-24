@@ -11,7 +11,6 @@ package Task2;
  */
 public class Tiger extends Animal {
 
-
     public Tiger(int weight, String color, int age, boolean isAlive, String name) {
         super(weight, color, age, isAlive, name);
     }
