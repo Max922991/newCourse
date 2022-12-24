@@ -12,10 +12,15 @@ public class Lion extends Animal {
 
     @Override
     protected String voice () {
-        return "мяу, мой цвет = %s, а возраст = %s";
+        return String.format("мяу, мой цвет = %s, а возраст = %s", getColor(), getAge());
     }
     public static void main(String[] args) {
-        Lion lion = new Lion(12, "swsw", 11, true, "dwdwd");
+        Lion lion = new Lion(12, "blue", 11, true, "Simba");
         lion.setName("Бонифаций");
+
+        System.out.println(lion.voice());
+
+
     }
+
 }
