@@ -16,9 +16,10 @@ package Task1;
  * вывести константное значение в консоль, объявленное во 2 пункте.
  */
 public class Main {
+    public static final String READY = "Я строка с полной готовностью";
+    public boolean value = false;
+
     public static void main(String[] args) {
-        final String READY = "Я строка с полной готовностью";
-        boolean value = false;
         float n = 0.25f;
 
         int firstValue = 1;
