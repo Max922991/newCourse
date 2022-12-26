@@ -8,8 +8,8 @@ package Task2;
 public class Main {
     public static void main(String[] args) {
 
-        Animal lion = new Lion(54, "orange", 21, false, "lllllll");
-        Animal tiger = new Tiger(45, "red", 12, true, "ttttttt");
+        Animal lion = new Lion(54, "orange", 21, "lllllll");
+        Animal tiger = new Tiger(45, "red", 12, "ttttttt");
 
         Animal[] array = {lion, tiger};
 

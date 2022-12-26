@@ -11,8 +11,8 @@ package Task2;
  */
 public class Tiger extends Animal {
 
-    public Tiger(int weight, String color, int age, boolean isAlive, String name) {
-        super(weight, color, age, isAlive, name);
+    public Tiger(int weight, String color, int age, String name) {
+        super(weight, color, age, name);
     }
 
     @Override
@@ -23,7 +23,7 @@ public class Tiger extends Animal {
 
     public static void main(String[] args) {
 
-        Tiger tiger = new Tiger(45, "red", 12, true, "wdwd");
+        Tiger tiger = new Tiger(45, "red", 12, "wdwd");
         tiger.setAge(10);
         tiger.setName("Тигруля");
 

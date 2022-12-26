@@ -6,8 +6,8 @@ package Task2;
  * 3.в Через сеттер задать имя Льву "Бонифаций"
  */
 public class Lion extends Animal {
-    public Lion( int weight, String color,int age, boolean isAlive, String name){
-        super(weight, color, age, isAlive, "Бонифаций");
+    public Lion( int weight, String color,int age, String name){
+        super(weight, color, age, "Бонифаций");
     }
 
     @Override
@@ -15,7 +15,7 @@ public class Lion extends Animal {
         return String.format("мяу, мой цвет = %s, а возраст = %s", getColor(), getAge());
     }
     public static void main(String[] args) {
-        Lion lion = new Lion(12, "blue", 11, true, "Simba");
+        Lion lion = new Lion(12, "blue", 11, "Simba");
         lion.setName("Бонифаций");
 
         System.out.println(lion.voice());

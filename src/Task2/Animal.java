@@ -34,12 +34,8 @@ public class Animal {
         this.name = name;
     }
 
-    public Animal(int weight, String color, int age, boolean isAlive, String name) {
-        this.weight = weight;
-        this.color = color;
-        this.age = age;
+    public Animal(boolean isAlive) {
         this.isAlive = isAlive;
-        this.name = name;
     }
 
     public int getWeight() {
