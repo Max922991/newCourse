@@ -11,6 +11,10 @@ package Task2;
  */
 public class Tiger extends Animal {
 
+    public Tiger(boolean isAlive) {
+        super(true);
+    }
+
     public Tiger(int weight, String color, int age, String name) {
         super(weight, color, age, name);
 
@@ -18,6 +22,9 @@ public class Tiger extends Animal {
         Tiger tiger = new Tiger(45, "red", 12, "ttttttt");
         tiger.setAge(10);
         tiger.setName("Тигруля");
+
+
+
 
     }
 

@@ -12,6 +12,9 @@ public class Lion extends Animal {
         Lion lion = new Lion(54, "orange", 21, "lllllll");
         lion.setName("Бонифаций");
     }
+    public Lion(boolean isAlive) {
+        super(true);
+    }
 
     @Override
     protected String voice () {
