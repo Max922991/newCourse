@@ -8,19 +8,15 @@ package Task2;
 public class Lion extends Animal {
     public Lion( int weight, String color,int age, String name){
         super(weight, color, age, "Бонифаций");
+
+        Lion lion = new Lion(54, "orange", 21, "lllllll");
+        lion.setName("Бонифаций");
     }
 
     @Override
     protected String voice () {
         return String.format("мяу, мой цвет = %s, а возраст = %s", getColor(), getAge());
     }
-    public static void main(String[] args) {
-        Lion lion = new Lion(12, "blue", 11, "Simba");
-        lion.setName("Бонифаций");
 
-        System.out.println(lion.voice());
-
-
-    }
 
 }

@@ -13,20 +13,16 @@ public class Tiger extends Animal {
 
     public Tiger(int weight, String color, int age, String name) {
         super(weight, color, age, name);
+
+
+        Tiger tiger = new Tiger(45, "red", 12, "ttttttt");
+        tiger.setAge(10);
+        tiger.setName("Тигруля");
+
     }
 
     @Override
     protected String voice() {
         return "PPP, мне лет " + getAge();
-    }
-
-
-    public static void main(String[] args) {
-
-        Tiger tiger = new Tiger(45, "red", 12, "wdwd");
-        tiger.setAge(10);
-        tiger.setName("Тигруля");
-
-        tiger.voice();
     }
 }
