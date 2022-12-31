@@ -18,7 +18,7 @@ package Task1;
 public class Main {
     public static final String READY = "Я строка с полной готовностью";
     public boolean value;
-    public float n = 0.25f;
+    public static float n = 0.25f;
 
     public static void main(String[] args) {
 
