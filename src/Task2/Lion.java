@@ -7,10 +7,8 @@ package Task2;
  */
 public class Lion extends Animal {
     public Lion( int weight, String color,int age, String name){
-        super(weight, color, age, "Бонифаций");
+        super(weight, color, age, name);
 
-        Lion lion = new Lion(54, "orange", 21, "lllllll");
-        lion.setName("Бонифаций");
     }
     public Lion(boolean isAlive) {
         super(true);

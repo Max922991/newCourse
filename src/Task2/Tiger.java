@@ -18,14 +18,6 @@ public class Tiger extends Animal {
     public Tiger(int weight, String color, int age, String name) {
         super(weight, color, age, name);
 
-
-        Tiger tiger = new Tiger(45, "red", 12, "ttttttt");
-        tiger.setAge(10);
-        tiger.setName("Тигруля");
-
-
-
-
     }
 
     @Override
